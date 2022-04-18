@@ -38,6 +38,8 @@ public class LoginStep extends TestBase {
         // Write code here that turns the phrase above into concrete actions
 //        driver.get(prop.getProperty("url"));/**/
         driver.get("https://www.google.com/");
+        //New comment for commit
+
 
       //  driver.findElement(By.xpath(".//input[@title='Search']")).sendKeys("Things we do for love");
         driver.findElement(searchbox).sendKeys("Things we do for love");
