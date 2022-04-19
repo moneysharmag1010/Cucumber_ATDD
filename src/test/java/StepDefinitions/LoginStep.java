@@ -41,7 +41,7 @@ public class LoginStep extends TestBase {
         //New comment for commit
 
         //#Added a new line in Dev Branch
-
+//creating commits for squash
       //  driver.findElement(By.xpath(".//input[@title='Search']")).sendKeys("Things we do for love");
         driver.findElement(searchbox).sendKeys("Things we do for love");
         js = (JavascriptExecutor) driver;
