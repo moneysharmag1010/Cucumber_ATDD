@@ -33,6 +33,9 @@ public class LoginStep extends TestBase {
 
     }
 
+
+    //Moving head to somewhere else and making a commit to see what happensgit
+
     @When("the user enters valid credentials")
     public void the_user_enters_valid_credentials() {
         // Write code here that turns the phrase above into concrete actions
