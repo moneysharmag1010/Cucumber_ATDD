@@ -42,7 +42,7 @@ public class TestBase {
         System.out.println("Zuba" + ++counter);
         String browser = prop.getProperty("browser");
         if (browser.equals("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "/Users/moneysharma/Documents/jars and drivers/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "src/main/Drivers/chromedriver");
             driver = new ChromeDriver();
             PageFactory.initElements(driver,this);
 
