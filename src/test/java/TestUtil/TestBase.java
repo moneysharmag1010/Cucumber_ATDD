@@ -43,7 +43,7 @@ public class TestBase {
         String browser = prop.getProperty("browser");
         if (browser.equals("chrome")) {
             System.setProperty("webdriver.chrome.driver", "/Users/moneysharma/Documents/jars and drivers/chromedriver");
-            driver = new ChromeDriver();
+            driver = new ChromeDriver("webdriver.chrome.driver","");
             PageFactory.initElements(driver,this);
 
         }
