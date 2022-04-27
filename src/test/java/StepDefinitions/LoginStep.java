@@ -4,13 +4,12 @@ import TestUtil.TestBase;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
+
+import java.awt.*;
 
 public class LoginStep extends TestBase {
 
@@ -90,6 +89,22 @@ public class LoginStep extends TestBase {
     @Then("user is able to see sign out button")
     public void user_is_able_to_see_sign_out_button() {
         // Write code here that turns the phrase above into concrete actions
+        if(1==0)
+        {
+            Alert alert = driver.switchTo().alert();
+            alert.accept();
+            alert.dismiss();
+            alert.getText();
+            alert.sendKeys("Random text");
+
+            ///Robot begins
+            try {
+                Robot rb = new Robot();
+
+            } catch (AWTException e) {
+                e.printStackTrace();
+            }
+        }
 
     }
 
